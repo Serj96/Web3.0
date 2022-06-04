@@ -1,4 +1,4 @@
-import { Footer, Loader, NavBar, Services, Transactions, Welcom } from './krypto/components';
+import { Footer, Loader, NavBar, Services, Transactions, Welcom } from './components';
 
 const App = () => {
   const [count, setCount] = useState(0)
