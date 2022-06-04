@@ -1,7 +1,6 @@
-import { Footer, Loader, NavBar, Services, Transactions, Welcom } from './components';
+import { Footer, Loader, NavBar, Services, Transactions, Welcom } from './../components';
 
 const App = () => {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="min-h-screen">
@@ -13,7 +12,7 @@ const App = () => {
        <Transactions />
        <Footer />
     </div>
-  )
+  );
 }
 
 export default App;
