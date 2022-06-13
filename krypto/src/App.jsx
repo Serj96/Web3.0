@@ -1,4 +1,6 @@
+
 import { Footer, Loader, NavBar, Services, Transactions, Welcom } from './../components';
+
 
 const App = () => {
 
